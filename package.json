@@ -1,0 +1,17 @@
+{
+  "name": "WebSh0t",
+  "version": "1.0.0",
+  "description": "It's a very interesting Discord bot.",
+  "author": {
+    "name": "Loonatic",
+    "email": "its@loony.pw"
+  },
+  "main": "bot.js",
+  "scripts": {
+    "start": "node ./"
+  },
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "webshot": "^0.18.0"
+  }
+}
