@@ -30,7 +30,7 @@ const status = [],
               case 'ws':
                   webshot(args, "webshot.png", err => {
                       if (err)
-                          send('There was an error, <@!'+message.author.id+'>. Please try `'+message.content+'` again later.', error);
+                          send('There was an error, <@!'+message.author.id+'>. Please try `'+message.content+'` again later.', err);
                       else
                           send('<@!'+message.author.id+'> took a webshot of `'+args+'`:', {files: ['webshot.png']});
                   });
